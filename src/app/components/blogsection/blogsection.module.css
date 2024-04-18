@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    margin-bottom: 5vw;
+}
+
+.header{
+    font-size: 2.5vw;
+    text-align: center
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    gap: 5vw;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.imageContainer{
+    display: flex;
+    position: relative;
+    object-fit: cover;
+    width: 30vw;
+    height: 20vw;
+}
+
+.textContainer{
+    width: 40vw;
+    display: flex;
+    flex-direction:column;
+    gap: 1vw;
+}
+
+.title{
+    font-size: 1.6vw;
+}
+
+.desc{
+    font-size: 1.3vw;
+}
+
+.button {
+    font-size: 1.3vw;
+    background-color: #081f49;
+    width: max-content;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    padding:1vw;
+}
+
+.image{
+    display: flex;
+    position: relative;
+    object-fit: cover;
+    border-radius: 25px;
+    width: 30vw;
+    height: 20vw;
+}
+
+@media screen and (max-width:640px) {
+    .container {
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        margin-bottom: 5vw;
+    }
+    
+    .header{
+        font-size: 6vw;
+        text-align: center;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        gap: 5vw;
+        justify-content: center;
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+    }
+    
+    .imageContainer{
+        display: flex;
+        position: relative;
+        object-fit: cover;
+        width: 80vw;
+        height: 60vw;
+    }
+    
+    .textContainer{
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        gap: 3vw;
+    }
+    
+    .title{
+        font-size: 5.5vw;
+    }
+    
+    .desc{
+        font-size: 4.5vw;
+    }
+    
+    .button {
+        font-size: 4vw;
+        background-color: #081f49;
+        width: max-content;
+        color: white;
+        font-weight: bold;
+        border-radius: 50px;
+        padding:2vw;
+    }
+    
+    .image{
+        display: flex;
+        position: relative;
+        object-fit: cover;
+        border-radius: 25px;
+        width: 30vw;
+        height: 20vw;
+    }
+}
